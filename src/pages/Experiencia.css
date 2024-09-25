@@ -1,0 +1,26 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Asegura que el cuerpo ocupe el 100% de la altura */
+    overflow: hidden; /* Evita el desplazamiento */
+  }
+  
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0; /* Sin padding para usar toda la pantalla */
+    background-color: #f9f9f9; /* Color de fondo */
+    border-radius: 0; /* Sin bordes redondeados para ocupar toda la pantalla */
+    box-shadow: none; /* Sin sombra */
+    width: 100vw; /* Ancho completo de la ventana */
+    height: -webkit-fill-available; /* Alto completo de la ventana */
+    overflow: hidden; /* Evita el desbordamiento del contenido */
+  }
+  
+  .video-container iframe {
+    border-radius: 0; /* Sin bordes redondeados para el iframe */
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Alto completo */
+  }
+  

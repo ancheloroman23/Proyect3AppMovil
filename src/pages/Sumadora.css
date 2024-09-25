@@ -1,0 +1,91 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Asegura que el cuerpo ocupe el 100% de la altura */
+    display: flex; /* Usa flexbox para centrar contenido */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+  }
+  
+  .sumadora-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente */
+    justify-content: center; /* Centrar verticalmente */
+    padding: 30px; /* Aumentar el padding */
+    background-color: #f9f9f9; /* Color de fondo suave */
+    border-radius: 15px; /* Bordes más redondeados */
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.3); /* Sombra más prominente */
+    width: 90%; /* Ancho adaptable */
+    max-width: 400px; /* Aumentar el ancho máximo */
+    transition: transform 0.3s ease; /* Transición para efectos de hover */
+  }
+  
+  .sumadora-container:hover {
+    transform: translateY(-5px); /* Eleva el contenedor al hacer hover */
+  }
+  
+  .sumadora-title {
+    font-size: 32px; /* Aumentar el tamaño del título */
+    margin-bottom: 25px; /* Aumentar el margen inferior */
+    color: #007bff; /* Color del título */
+    text-align: center; /* Centrar texto del título */
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Tomar todo el ancho */
+    margin-bottom: 15px; /* Aumentar margen inferior */
+  }
+  
+  .ion-label {
+    font-weight: bold; /* Negrita para etiquetas */
+    font-size: 20px; /* Aumentar el tamaño de fuente de la etiqueta */
+    text-align: center; /* Centrar el texto de la etiqueta */
+  }
+  
+  .ion-input {
+    border: 2px solid #007bff; /* Borde azul */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 15px; /* Aumentar el espaciado interno */
+    font-size: 24px; /* Aumentar el tamaño de fuente */
+    transition: border 0.3s ease; /* Transición suave para el borde */
+  }
+  
+  .ion-input:focus {
+    border-color: #0056b3; /* Cambio de color del borde al hacer focus */
+  }
+  
+  .ion-button {
+    margin: 15px 0; /* Aumentar el margen entre botones */
+    font-size: 24px; /* Aumentar el tamaño de fuente del botón */
+    background-color: #007bff; /* Color de fondo de los botones */
+    color: white; /* Color del texto del botón */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 100%; /* Ancho completo del botón */
+    --padding-start: 0; /* Ajustar el padding */
+    --padding-end: 0;
+    transition: background-color 0.3s ease; /* Transición suave para el fondo del botón */
+  }
+  
+  .ion-button:hover {
+    background-color: #0056b3; /* Color del botón al hacer hover */
+  }
+  
+  .resultado {
+    margin-top: 25px; /* Aumentar margen superior */
+    font-size: 28px; /* Aumentar el tamaño de fuente para el resultado */
+    color: #333; /* Color del resultado */
+    font-weight: bold;
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Transición suave para el resultado */
+    opacity: 0; /* Inicialmente oculto */
+    transform: translateY(-20px); /* Moverse hacia arriba */
+    text-align: center; /* Centrar el texto del resultado */
+  }
+  
+  .resultado-visible {
+    opacity: 1; /* Hacer visible */
+    transform: translateY(0); /* Regresar a su posición original */
+  }
+  

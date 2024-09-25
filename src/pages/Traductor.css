@@ -1,0 +1,27 @@
+.traductor-content {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .traductor-container {
+    text-align: center;
+    margin-top: 25px;
+  }
+  
+  .traductor-input {
+    margin: 10px 0;
+    width: 80%; /* Ajusta el ancho del input */
+  }
+  
+  .traductor-button {
+    background-color: #3880ff; /* Color del botón */
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .traductor-result {
+    margin-top: 20px;
+    font-size: 1.5em; /* Tamaño de la fuente para el resultado */
+    color: #333; /* Color del texto del resultado */
+  }
+  

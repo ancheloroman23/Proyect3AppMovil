@@ -1,0 +1,82 @@
+.home-content {
+  background-color: #f0f4f8; /* Color de fondo más claro */
+  padding: 20px;
+}
+
+.personal-info {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.info-card {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: white; /* Color de fondo de la tarjeta */
+  width: 90%; /* Ancho de la tarjeta */
+}
+
+.avatar-col {
+  display: flex;
+  justify-content: center;
+}
+
+.avatar-image {
+  width: 200px; /* Tamaño más pequeño para la imagen */
+  height: 200px; /* Tamaño más pequeño para la imagen */
+  border-image: 50%; /* Hacer que la imagen sea circular */
+}
+
+.info-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px; /* Añadir padding para separación */
+}
+
+.option-title {
+  margin: 20px 0;
+  color: #2c3e50; /* Color más oscuro para contraste */
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.button-grid {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.options-row {
+  display: flex;
+  flex-direction: column; /* Cambiar a columna para que los botones estén uno debajo del otro */
+  align-items: center; /* Centrar los botones */
+}
+
+.option-col {
+  margin-bottom: 10px; /* Espaciado entre botones */
+  width: 100%; /* Asegurar que cada columna ocupe el 100% */
+}
+
+.option-button {
+  background-color: #3498db; /* Color azul para los botones */
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s ease; /* Animación suave al cambiar de color */
+  width: 100%; /* Botón ocupa el 100% de su columna */
+  height: 60px; /* Altura uniforme para los botones */
+  font-size: 18px; /* Tamaño de fuente ajustado */
+  border-radius: 20px; /* Esquinas redondeadas más suaves */
+}
+
+.option-button:hover {
+  background-color: #2980b9; /* Color más oscuro al pasar el ratón */
+}
+
+.option-button:focus {
+  outline: none; /* Eliminar el borde de enfoque */
+}
